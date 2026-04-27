@@ -10,15 +10,45 @@ interface Props {
   product: Product;
   isWishlisted: boolean;
   onWishlistToggle: (next: boolean) => void;
+  compact?: boolean;
 }
 
 export function ProductCard({
   product,
   isWishlisted,
   onWishlistToggle,
+  compact = false,
 }: Props) {
   function handleCardClick() {
     window.open(product.link, "_blank", "noopener,noreferrer");
+  }
+
+  if (compact) {
+    return (
+      <Card
+        onClick={handleCardClick}
+        className="group cursor-pointer overflow-hidden gap-0 pt-0 pb-0 transition-shadow hover:shadow-md"
+      >
+        <div className="relative aspect-square bg-muted">
+          <Image
+            src={product.image}
+            alt={product.title}
+            fill
+            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+            className="object-cover transition-transform group-hover:scale-105"
+            unoptimized
+          />
+        </div>
+        <CardContent className="space-y-1 p-2.5">
+          <h3 className="line-clamp-2 text-xs font-medium leading-snug">
+            {product.title}
+          </h3>
+          <p className="text-sm font-bold">
+            {product.price.toLocaleString()}원
+          </p>
+        </CardContent>
+      </Card>
+    );
   }
 
   return (
@@ -33,6 +63,7 @@ export function ProductCard({
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
           className="object-cover transition-transform group-hover:scale-105"
+          unoptimized
         />
         <div className="absolute right-2 top-2">
           <WishlistButton
@@ -45,7 +76,10 @@ export function ProductCard({
 
       <CardContent className="space-y-2 pb-4">
         <p className="text-xs text-muted-foreground">
-          {product.brand} · {product.mall}
+          {product.brand}
+          {product.mall && product.mall !== product.brand
+            ? ` · ${product.mall}`
+            : ""}
         </p>
         <h3 className="line-clamp-2 text-sm font-medium leading-snug">
           {product.title}

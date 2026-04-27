@@ -55,12 +55,12 @@ export default function ResultPage() {
         <FeaturedSection products={result.featured_products} />
       )}
 
-      <section className="space-y-4">
-        <h2 className="text-lg font-semibold">
+      <section className="space-y-3">
+        <h2 className="text-base font-semibold text-muted-foreground">
           네이버 쇼핑 추천 ({result.products.length})
         </h2>
         {result.products.length > 0 ? (
-          <ProductGrid products={result.products} />
+          <ProductGrid products={result.products} compact />
         ) : (
           <div className="py-12 text-center text-muted-foreground">
             매칭되는 상품을 찾지 못했어요.

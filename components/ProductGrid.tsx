@@ -7,9 +7,10 @@ import type { Product } from "@/lib/types";
 
 interface Props {
   products: Product[];
+  compact?: boolean;
 }
 
-export function ProductGrid({ products }: Props) {
+export function ProductGrid({ products, compact = false }: Props) {
   const [wishlistedIds, setWishlistedIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -26,14 +27,19 @@ export function ProductGrid({ products }: Props) {
     });
   }
 
+  const gridClassName = compact
+    ? "grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6"
+    : "grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3";
+
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className={gridClassName}>
       {products.map((product) => (
         <ProductCard
           key={product.id}
           product={product}
           isWishlisted={wishlistedIds.has(product.id)}
           onWishlistToggle={(next) => handleToggle(product.id, next)}
+          compact={compact}
         />
       ))}
     </div>
