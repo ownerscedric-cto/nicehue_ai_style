@@ -34,12 +34,16 @@ function buildContentQuery(prompt: string, keywords: string[]): string {
     .replace(/(\d+\s*만\s*원\s*(이하|이내|미만)?)/g, "")
     .replace(/(\d+\s*천\s*원\s*(이하|이내|미만)?)/g, "")
     .replace(/예산.*?(?=,|$)/g, "")
+    .replace(/(남자|남성)\s*/g, "")
     .replace(/[,]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 
-  const base = cleaned || keywords.slice(0, 3).join(" ") || "패션 코디";
-  return base.length > 30 ? `${base.slice(0, 30)} 코디` : `${base} 코디`;
+  const base = cleaned || keywords.slice(0, 3).join(" ") || "패션";
+  const withGender = /여자|여성/.test(base) ? base : `여자 ${base}`;
+  const truncated =
+    withGender.length > 30 ? withGender.slice(0, 30) : withGender;
+  return `${truncated} 코디`;
 }
 
 export async function POST(request: Request) {
