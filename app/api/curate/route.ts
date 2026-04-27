@@ -73,6 +73,7 @@ export async function POST(request: Request) {
 
     const featuredPromise = fetchNicehueProducts({
       prompt,
+      styleTags: extracted.style_tags,
       budgetMax: extracted.budget_max,
       limit: 6,
     });
