@@ -1,0 +1,402 @@
+[
+  {
+    "id": "mock_001",
+    "title": "오버핏 코튼 셔츠 화이트",
+    "brand": "무신사 스탠다드",
+    "price": 39000,
+    "image": "https://picsum.photos/seed/1/400/400",
+    "link": "https://example.com/product/mock_001",
+    "mall": "무신사",
+    "tags": ["minimal", "daily", "spring", "shirt", "casual", "office"]
+  },
+  {
+    "id": "mock_002",
+    "title": "베이직 슬랙스 베이지",
+    "brand": "무신사 스탠다드",
+    "price": 49000,
+    "image": "https://picsum.photos/seed/2/400/400",
+    "link": "https://example.com/product/mock_002",
+    "mall": "무신사",
+    "tags": ["minimal", "office", "formal", "slacks", "daily", "spring", "fall"]
+  },
+  {
+    "id": "mock_003",
+    "title": "빈티지 워싱 데님 자켓",
+    "brand": "커버낫",
+    "price": 129000,
+    "image": "https://picsum.photos/seed/3/400/400",
+    "link": "https://example.com/product/mock_003",
+    "mall": "무신사",
+    "tags": ["vintage", "casual", "street", "jacket", "spring", "fall"]
+  },
+  {
+    "id": "mock_004",
+    "title": "플로럴 쉬폰 미디 원피스",
+    "brand": "앤더슨벨",
+    "price": 89000,
+    "image": "https://picsum.photos/seed/4/400/400",
+    "link": "https://example.com/product/mock_004",
+    "mall": "29CM",
+    "tags": ["feminine", "date", "spring", "summer", "dress", "daily"]
+  },
+  {
+    "id": "mock_005",
+    "title": "클래식 울 블레이저 네이비",
+    "brand": "라퍼지스토어",
+    "price": 249000,
+    "image": "https://picsum.photos/seed/5/400/400",
+    "link": "https://example.com/product/mock_005",
+    "mall": "29CM",
+    "tags": ["formal", "office", "minimal", "blazer", "fall", "winter"]
+  },
+  {
+    "id": "mock_006",
+    "title": "오버사이즈 후드 티셔츠",
+    "brand": "LMC",
+    "price": 79000,
+    "image": "https://picsum.photos/seed/6/400/400",
+    "link": "https://example.com/product/mock_006",
+    "mall": "무신사",
+    "tags": ["street", "casual", "hoodie", "daily", "fall", "winter"]
+  },
+  {
+    "id": "mock_007",
+    "title": "와이드 카고 팬츠 카키",
+    "brand": "디스이즈네버댓",
+    "price": 99000,
+    "image": "https://picsum.photos/seed/7/400/400",
+    "link": "https://example.com/product/mock_007",
+    "mall": "무신사",
+    "tags": ["street", "casual", "pants", "fall", "winter"]
+  },
+  {
+    "id": "mock_008",
+    "title": "스트라이프 긴팔 티셔츠",
+    "brand": "유니클로",
+    "price": 19000,
+    "image": "https://picsum.photos/seed/8/400/400",
+    "link": "https://example.com/product/mock_008",
+    "mall": "유니클로",
+    "tags": ["minimal", "casual", "tshirt", "daily", "spring", "fall"]
+  },
+  {
+    "id": "mock_009",
+    "title": "린넨 반팔 셔츠 스카이블루",
+    "brand": "코스",
+    "price": 69000,
+    "image": "https://picsum.photos/seed/9/400/400",
+    "link": "https://example.com/product/mock_009",
+    "mall": "COS",
+    "tags": ["minimal", "casual", "summer", "shirt", "daily", "office"]
+  },
+  {
+    "id": "mock_010",
+    "title": "하이웨스트 슬림 진",
+    "brand": "리바이스",
+    "price": 119000,
+    "image": "https://picsum.photos/seed/10/400/400",
+    "link": "https://example.com/product/mock_010",
+    "mall": "리바이스",
+    "tags": ["casual", "jeans", "daily", "fall", "winter", "feminine"]
+  },
+  {
+    "id": "mock_011",
+    "title": "퍼프 슬리브 블라우스",
+    "brand": "로에베",
+    "price": 159000,
+    "image": "https://picsum.photos/seed/11/400/400",
+    "link": "https://example.com/product/mock_011",
+    "mall": "29CM",
+    "tags": ["feminine", "date", "office", "shirt", "spring", "summer"]
+  },
+  {
+    "id": "mock_012",
+    "title": "니트 카디건 크림",
+    "brand": "마르지엘라",
+    "price": 189000,
+    "image": "https://picsum.photos/seed/12/400/400",
+    "link": "https://example.com/product/mock_012",
+    "mall": "29CM",
+    "tags": ["minimal", "feminine", "cardigan", "fall", "winter", "office", "daily"]
+  },
+  {
+    "id": "mock_013",
+    "title": "러닝 스니커즈 화이트",
+    "brand": "나이키",
+    "price": 139000,
+    "image": "https://picsum.photos/seed/13/400/400",
+    "link": "https://example.com/product/mock_013",
+    "mall": "나이키",
+    "tags": ["casual", "street", "sneakers", "daily", "spring", "summer", "fall"]
+  },
+  {
+    "id": "mock_014",
+    "title": "페이즐리 실크 스카프",
+    "brand": "한섬",
+    "price": 49000,
+    "image": "https://picsum.photos/seed/14/400/400",
+    "link": "https://example.com/product/mock_014",
+    "mall": "한섬몰",
+    "tags": ["vintage", "feminine", "accessory", "spring", "fall"]
+  },
+  {
+    "id": "mock_015",
+    "title": "울 혼방 롱 코트 그레이",
+    "brand": "시스템",
+    "price": 349000,
+    "image": "https://picsum.photos/seed/15/400/400",
+    "link": "https://example.com/product/mock_015",
+    "mall": "한섬몰",
+    "tags": ["formal", "minimal", "coat", "winter", "office"]
+  },
+  {
+    "id": "mock_016",
+    "title": "체크 패턴 A라인 미니 스커트",
+    "brand": "알로",
+    "price": 59000,
+    "image": "https://picsum.photos/seed/16/400/400",
+    "link": "https://example.com/product/mock_016",
+    "mall": "29CM",
+    "tags": ["vintage", "feminine", "date", "skirt", "fall", "winter"]
+  },
+  {
+    "id": "mock_017",
+    "title": "베이직 크루넥 반팔 티",
+    "brand": "무신사 스탠다드",
+    "price": 12000,
+    "image": "https://picsum.photos/seed/17/400/400",
+    "link": "https://example.com/product/mock_017",
+    "mall": "무신사",
+    "tags": ["minimal", "casual", "tshirt", "summer", "daily"]
+  },
+  {
+    "id": "mock_018",
+    "title": "루즈핏 옥스포드 셔츠",
+    "brand": "토피",
+    "price": 55000,
+    "image": "https://picsum.photos/seed/18/400/400",
+    "link": "https://example.com/product/mock_018",
+    "mall": "무신사",
+    "tags": ["casual", "minimal", "shirt", "office", "spring", "fall"]
+  },
+  {
+    "id": "mock_019",
+    "title": "크롭 레더 자켓 블랙",
+    "brand": "락피쉬",
+    "price": 219000,
+    "image": "https://picsum.photos/seed/19/400/400",
+    "link": "https://example.com/product/mock_019",
+    "mall": "29CM",
+    "tags": ["street", "vintage", "jacket", "fall", "winter", "date"]
+  },
+  {
+    "id": "mock_020",
+    "title": "플리츠 롱 스커트",
+    "brand": "조이너스",
+    "price": 79000,
+    "image": "https://picsum.photos/seed/20/400/400",
+    "link": "https://example.com/product/mock_020",
+    "mall": "한섬몰",
+    "tags": ["feminine", "office", "skirt", "spring", "fall", "date"]
+  },
+  {
+    "id": "mock_021",
+    "title": "그래픽 오버핏 후디",
+    "brand": "키르시",
+    "price": 89000,
+    "image": "https://picsum.photos/seed/21/400/400",
+    "link": "https://example.com/product/mock_021",
+    "mall": "무신사",
+    "tags": ["street", "casual", "hoodie", "daily", "fall", "winter"]
+  },
+  {
+    "id": "mock_022",
+    "title": "린넨 블렌드 와이드 팬츠",
+    "brand": "오이아우어",
+    "price": 69000,
+    "image": "https://picsum.photos/seed/22/400/400",
+    "link": "https://example.com/product/mock_022",
+    "mall": "29CM",
+    "tags": ["minimal", "casual", "summer", "pants", "daily", "office"]
+  },
+  {
+    "id": "mock_023",
+    "title": "카라 니트 스웨터",
+    "brand": "코스",
+    "price": 99000,
+    "image": "https://picsum.photos/seed/23/400/400",
+    "link": "https://example.com/product/mock_023",
+    "mall": "COS",
+    "tags": ["minimal", "office", "knit", "fall", "winter", "formal"]
+  },
+  {
+    "id": "mock_024",
+    "title": "레이스 디테일 원피스",
+    "brand": "르베이지",
+    "price": 229000,
+    "image": "https://picsum.photos/seed/24/400/400",
+    "link": "https://example.com/product/mock_024",
+    "mall": "한섬몰",
+    "tags": ["feminine", "date", "dress", "spring", "summer", "formal"]
+  },
+  {
+    "id": "mock_025",
+    "title": "빈티지 밴드 그래픽 티",
+    "brand": "LMC",
+    "price": 45000,
+    "image": "https://picsum.photos/seed/25/400/400",
+    "link": "https://example.com/product/mock_025",
+    "mall": "무신사",
+    "tags": ["vintage", "street", "tshirt", "summer", "casual", "daily"]
+  },
+  {
+    "id": "mock_026",
+    "title": "클래식 트렌치 코트 베이지",
+    "brand": "버버리",
+    "price": 290000,
+    "image": "https://picsum.photos/seed/26/400/400",
+    "link": "https://example.com/product/mock_026",
+    "mall": "29CM",
+    "tags": ["minimal", "formal", "coat", "spring", "fall", "office"]
+  },
+  {
+    "id": "mock_027",
+    "title": "하이탑 캔버스 스니커즈",
+    "brand": "컨버스",
+    "price": 79000,
+    "image": "https://picsum.photos/seed/27/400/400",
+    "link": "https://example.com/product/mock_027",
+    "mall": "무신사",
+    "tags": ["casual", "vintage", "street", "sneakers", "daily", "spring", "summer"]
+  },
+  {
+    "id": "mock_028",
+    "title": "실크 새틴 캐미솔",
+    "brand": "에잇세컨즈",
+    "price": 39000,
+    "image": "https://picsum.photos/seed/28/400/400",
+    "link": "https://example.com/product/mock_028",
+    "mall": "에잇세컨즈",
+    "tags": ["feminine", "date", "summer", "date", "top"]
+  },
+  {
+    "id": "mock_029",
+    "title": "스트라이프 셔츠 원피스",
+    "brand": "구호",
+    "price": 149000,
+    "image": "https://picsum.photos/seed/29/400/400",
+    "link": "https://example.com/product/mock_029",
+    "mall": "한섬몰",
+    "tags": ["minimal", "office", "dress", "spring", "summer", "daily"]
+  },
+  {
+    "id": "mock_030",
+    "title": "테일러드 쇼츠 블랙",
+    "brand": "아워레가시",
+    "price": 129000,
+    "image": "https://picsum.photos/seed/30/400/400",
+    "link": "https://example.com/product/mock_030",
+    "mall": "29CM",
+    "tags": ["minimal", "summer", "shorts", "formal", "office"]
+  },
+  {
+    "id": "mock_031",
+    "title": "케이블 니트 가디건",
+    "brand": "마가렛호웰",
+    "price": 259000,
+    "image": "https://picsum.photos/seed/31/400/400",
+    "link": "https://example.com/product/mock_031",
+    "mall": "29CM",
+    "tags": ["vintage", "feminine", "cardigan", "fall", "winter", "minimal"]
+  },
+  {
+    "id": "mock_032",
+    "title": "기모 후드 집업",
+    "brand": "내셔널지오그래픽",
+    "price": 119000,
+    "image": "https://picsum.photos/seed/32/400/400",
+    "link": "https://example.com/product/mock_032",
+    "mall": "무신사",
+    "tags": ["casual", "street", "hoodie", "winter", "daily"]
+  },
+  {
+    "id": "mock_033",
+    "title": "워크 셔츠 헌터그린",
+    "brand": "칼하트",
+    "price": 89000,
+    "image": "https://picsum.photos/seed/33/400/400",
+    "link": "https://example.com/product/mock_033",
+    "mall": "무신사",
+    "tags": ["vintage", "street", "casual", "shirt", "fall", "winter"]
+  },
+  {
+    "id": "mock_034",
+    "title": "리본 블라우스 화이트",
+    "brand": "미샤",
+    "price": 139000,
+    "image": "https://picsum.photos/seed/34/400/400",
+    "link": "https://example.com/product/mock_034",
+    "mall": "한섬몰",
+    "tags": ["feminine", "office", "formal", "shirt", "spring", "date"]
+  },
+  {
+    "id": "mock_035",
+    "title": "데님 버뮤다 쇼츠",
+    "brand": "리바이스",
+    "price": 59000,
+    "image": "https://picsum.photos/seed/35/400/400",
+    "link": "https://example.com/product/mock_035",
+    "mall": "리바이스",
+    "tags": ["casual", "summer", "shorts", "daily", "street"]
+  },
+  {
+    "id": "mock_036",
+    "title": "퍼 칼라 퀼팅 베스트",
+    "brand": "닐바렛",
+    "price": 199000,
+    "image": "https://picsum.photos/seed/36/400/400",
+    "link": "https://example.com/product/mock_036",
+    "mall": "29CM",
+    "tags": ["street", "vintage", "winter", "vest", "casual"]
+  },
+  {
+    "id": "mock_037",
+    "title": "실키 플리츠 원피스 블랙",
+    "brand": "띠어리",
+    "price": 289000,
+    "image": "https://picsum.photos/seed/37/400/400",
+    "link": "https://example.com/product/mock_037",
+    "mall": "한섬몰",
+    "tags": ["feminine", "formal", "date", "dress", "spring", "summer", "office"]
+  },
+  {
+    "id": "mock_038",
+    "title": "크롭 스웻 셔츠",
+    "brand": "아디다스",
+    "price": 69000,
+    "image": "https://picsum.photos/seed/38/400/400",
+    "link": "https://example.com/product/mock_038",
+    "mall": "아디다스",
+    "tags": ["street", "casual", "sweatshirt", "spring", "fall", "daily"]
+  },
+  {
+    "id": "mock_039",
+    "title": "하운즈투스 미디 스커트",
+    "brand": "아크네",
+    "price": 179000,
+    "image": "https://picsum.photos/seed/39/400/400",
+    "link": "https://example.com/product/mock_039",
+    "mall": "29CM",
+    "tags": ["vintage", "office", "skirt", "fall", "winter", "feminine"]
+  },
+  {
+    "id": "mock_040",
+    "title": "플라넬 체크 셔츠 레드",
+    "brand": "라퍼지스토어",
+    "price": 69000,
+    "image": "https://picsum.photos/seed/40/400/400",
+    "link": "https://example.com/product/mock_040",
+    "mall": "무신사",
+    "tags": ["vintage", "casual", "street", "shirt", "fall", "winter"]
+  }
+]
